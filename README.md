@@ -1,7 +1,7 @@
 # Python Programs
 
 A collection of small Python programs written while learning and practicing core concepts of Python.  
-Each file covers a specific problem or feature — from simple logic exercises to slightly more practical use cases.
+Each file covers a specific problem or feature, from simple logic exercises to slightly more practical use cases.
 
 ---
 
@@ -22,11 +22,12 @@ Each program is standalone and can be run individually.
 
 ##  Repository Structure
 
+```
 Python-programs/
 │
 ├── All Python Programs.md # List and description of all programs
 └── README.md # Repository documentation
-
+```
 
 ---
 
