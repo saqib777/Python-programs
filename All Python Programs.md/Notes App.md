@@ -44,7 +44,7 @@ While True:
 True Code:
 
 ```
-print("Welcome to NotePad!")
+print = ("Welcome to NotePad!")
 
 while True:
     print("\nMenu:")
@@ -72,3 +72,36 @@ while True:
 
 Time: 03:22 PM
 
+### Error
+
+<img width="1092" height="177" alt="image" src="https://github.com/user-attachments/assets/ab38bf0e-278a-4e02-a3c3-71c2c573e5a7" />
+
+Cause: overwrote Python’s built-in print function
+
+Correct & Final True Code:
+
+```
+
+print("Welcome to NotePad!")
+
+while True:
+    print("\nMenu:")
+    print("1. Add Note")
+    print("2. View Notes")
+    print("3. Exit")
+
+    user_input = input("Select an option (1/2/3): ")
+
+    if user_input == "1":
+        print("Add note feature coming soon")
+
+    elif user_input == "2":
+        print("View notes feature coming soon")
+
+    elif user_input == "3":
+        print("Exiting the app. Goodbye!")
+        break
+
+    else:
+        print("Invalid option. Please try again.")
+```
