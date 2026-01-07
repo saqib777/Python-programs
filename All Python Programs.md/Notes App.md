@@ -1,8 +1,7 @@
-started the program to test if I remember everything!
+##Started the program to test if I remember everything!
 
 Start Time: 02:30 PM
 Date: 07/01/2026
-
 Structured the code 15 mins:
 
 ```
