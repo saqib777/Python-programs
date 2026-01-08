@@ -124,3 +124,63 @@ Date: 08/01/2026
 - Ask the user to type a note
 - Store the note in the notes container
 - Confirm to the user that the note was added
+
+Try One:
+
+```
+
+print("Welcome to NotePad!")
+
+while True:
+    print("\nMenu:")
+    print("1. Add Note")
+    print("2. View Notes")
+    print("3. Exit")
+
+    user_input = input("Select an option (1/2/3): ")
+
+    if user_input == "1":
+        Note1 = input(str("Add your notes:" ))
+    elif user_input == "2":
+        print("your notes is:", Note1)
+    elif user_input == "3":
+        print("Exiting the app. Goodbye!")
+        break
+
+    else:
+        print("Invalid option. Please try again.")
+
+```
+
+Real Code: 
+
+```
+print("Welcome to NotePad!")
+
+notes = []   # this is the key change (memory storage)
+
+while True:
+    print("\nMenu:")
+    print("1. Add Note")
+    print("2. View Notes")
+    print("3. Exit")
+
+    user_input = input("Select an option (1/2/3): ")
+
+    if user_input == "1":
+        note = input("Add your note: ")
+        notes.append(note)
+        print("Note added successfully.")
+
+    elif user_input == "2":
+        print("View notes feature coming soon.")
+
+    elif user_input == "3":
+        print("Exiting the app. Goodbye!")
+        break
+
+    else:
+        print("Invalid option. Please try again.")
+```
+
+End time: 03:33
