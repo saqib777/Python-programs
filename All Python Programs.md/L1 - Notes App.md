@@ -112,3 +112,15 @@ Timme - 02:48 PM
 
 Date: 08/01/2026
 
+1. Create storage for notes
+
+- Create a variable before the loop starts
+- It should be able to hold multiple notes
+- Choose a structure that can grow dynamically
+
+2. Extend Option 1 (Add Note)
+
+- When the user selects option 1:
+- Ask the user to type a note
+- Store the note in the notes container
+- Confirm to the user that the note was added
